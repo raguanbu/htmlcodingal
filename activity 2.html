@@ -1,14 +1,53 @@
 <!DOCTYPE html>
+
 <html>
-<head></head>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width">
+
+<title>replit</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
 <body>
-    <h2>this is one of my favourite songs</h2>
-    <audio controls autoplay>
-        <source src="song.mp3" type="audio/mp3">
-    </audio>
-    <p>this is one of my favorite video</p>
-     <video >
-        <source src="video.mp4" type="video/mp4">
-     </video>
+
+<form>
+
+<fieldset>
+
+<!-- The fieldset tag is used to group related elements in a form and draws a box around them-->
+
+<legend>Personal Information:</legend>
+
+<label>Full name:</label>
+
+<!--placeholder attribute can be used to provide extra information about entry to be made-->
+
+<input type="text" id="fname" placeholder="Enter Name"><br><br>
+
+<label>Email:</label>
+
+<input type="text" id="email"><br><br>
+
+<label>Gender:</label><br>
+
+<input type="radio" id="gender" value="female">Female<br>
+
+<input type="radio" id="gender" value="male">Male<br><br>
+
+<label>Birthday:</label>
+
+<input type="date" id="birthday" name="birthday"><br><br>
+
+</fieldset>
+
+</form>
+
 </body>
+
 </html>
