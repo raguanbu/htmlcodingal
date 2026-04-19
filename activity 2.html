@@ -4,49 +4,29 @@
 
 <head>
 
-<meta charset="utf-8">
+<style>
 
-<meta name="viewport" content="width=device-width">
+#grad1 {
 
-<title>replit</title>
+height: 400px;
 
-<link href="style.css" rel="stylesheet" type="text/css" />
+background-color: red; /* For browsers that do not support gradients */
+
+background-image: linear-gradient(to top right, red, orange, yellow, green, blue, indigo, violet);
+
+}
+
+</style>
 
 </head>
 
 <body>
 
-<form>
+<div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
 
-<fieldset>
+Welcome to Codingal
 
-<!-- The fieldset tag is used to group related elements in a form and draws a box around them-->
-
-<legend>Personal Information:</legend>
-
-<label>Full name:</label>
-
-<!--placeholder attribute can be used to provide extra information about entry to be made-->
-
-<input type="text" id="fname" placeholder="Enter Name"><br><br>
-
-<label>Email:</label>
-
-<input type="text" id="email"><br><br>
-
-<label>Gender:</label><br>
-
-<input type="radio" id="gender" value="female">Female<br>
-
-<input type="radio" id="gender" value="male">Male<br><br>
-
-<label>Birthday:</label>
-
-<input type="date" id="birthday" name="birthday"><br><br>
-
-</fieldset>
-
-</form>
+</div>
 
 </body>
 
